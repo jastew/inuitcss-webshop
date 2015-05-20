@@ -452,12 +452,12 @@ html {
   /* [6] */
   padding: 11px 23px;
   /* [7] */
-  background-color: #4a8ec2;
-  border: 1px solid #4a8ec2; }
+  background-color: none;
+  border: 1px solid none; }
   .btn, .btn:hover, .btn:active, .btn:focus {
     text-decoration: none;
     /* [4] */
-    color: white; }
+    color: black; }
 
 /**
  * Fix a Firefox bug whereby `input type="submit"` gains 2px extra padding.
@@ -465,3 +465,25 @@ html {
 .btn::-moz-focus-inner {
   border: 0;
   padding: 0; }
+
+/**
+ * Full-width buttons.
+ */
+.btn--full {
+  width: 100%; }
+
+/**
+ * Round-ended buttons.
+ *
+ * 1. Overly-large value to ensure the radius rounds the whole end of the
+ *    button.
+ */
+.btn--pill {
+  border-radius: 100px;
+  /* [1] */ }
+
+/**
+ * Components
+ */
+.btn--primary {
+  background: red; }
