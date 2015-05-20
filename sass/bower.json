@@ -1,0 +1,19 @@
+{
+  "name": "inuitcss",
+  "version": "0.0.0",
+  "authors": [
+    "jayoe <jayoe08@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "inuit-starter-kit": "~0.2.9",
+    "inuit-buttons": "~0.4.2"
+  }
+}
