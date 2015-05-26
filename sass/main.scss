@@ -1,24 +1,70 @@
+/**
+ * Settings
+ */
+@import "settings.colors";
 @import "bower_components/inuit-defaults/settings.defaults";
 
 
+/**
+ * Tools
+ */
+@import "tools.mixins";
 @import "bower_components/inuit-functions/tools.functions";
 @import "bower_components/inuit-mixins/tools.mixins";
 
+
+/**
+ * Generic
+ */
 @import "bower_components/inuit-normalize/generic.normalize";
+@import "bower_components/inuit-reset/generic.reset";
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
 
-@import "bower_components/inuit-page/base.page";
 
-$inuit-btn-background: none;
+/**
+ * Base
+ */
+@import "base.links";
+@import "bower_components/inuit-page/base.page";
+@import "bower_components/inuit-images/base.images";
+
+
+/**
+ * Objects
+ */
+//$inuit-enable-layout--middle: true;
+//$inuit-enable-layout--large: true;	
+//@import "bower_components/inuit-layout/objects.layout";
+
+$inuit-btn-background: transparent;
+$inuit-btn-border-width: 2px;
 $inuit-btn-color: #000;
 $inuit-enable-btn--full: true;
 $inuit-enable-btn--pill: true;
 @import "bower_components/inuit-buttons/objects.buttons";
 
+@import "bower_components/inuit-list-ui/objects.list-ui";
 
+//$inuit-enable-media--tiny: true;
+//$inuit-enable-media--rev: true;
+$inuit-enable-media--responsive: true;
+@import "bower_components/inuit-media/objects.media";
+
+$inuit-enable-flag--responsive: true;
+@import "bower_components/inuit-flag/objects.flag";
+ 
 
 /**
  * Components
  */
 
  @import "components.buttons.scss";
+ @import "components.product.scss";
+
+
+
+/**
+ * Trumps
+ */
+
+ @import "bower_components/inuit-clearfix/trumps.clearfix";

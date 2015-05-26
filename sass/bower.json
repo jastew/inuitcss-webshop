@@ -14,6 +14,16 @@
   ],
   "dependencies": {
     "inuit-starter-kit": "~0.2.9",
-    "inuit-buttons": "~0.4.2"
+    "inuit-buttons": "~0.4.2",
+    "inuit-list-block": "~0.4.2",
+    "inuit-layout": "~0.3.2",
+    "inuit-media": "~0.4.2",
+    "inuit-clearfix": "~0.2.2",
+    "inuit-images": "~0.3.3",
+    "inuit-widths": "~0.4.2",
+    "inuit-widths-responsive": "~0.2.2",
+    "inuit-list-ui": "~0.4.1",
+    "inuit-flag": "~0.3.2",
+    "inuit-reset": "~0.1.1"
   }
 }

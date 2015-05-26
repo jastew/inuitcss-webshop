@@ -1,3 +1,43 @@
+.btn {
+	@include font-weight(bold);
+
+	color: $color--btn;
+
+	@include attention() {
+		color: darken($color--btn, 10%);
+	}
+}
+
 .btn--primary {
-	background: red;
+
+	@include vendor(transition, 0.2s);
+	@include font-weight(bold);
+
+	background: $color--btn;
+	border-color: $color--btn;
+	color: #fff;
+
+	@include attention() {
+
+		background: darken($color--btn, 10%);
+		border-color: darken($color--btn, 10%);
+		color: #fff;
+
+	}
+
+}
+
+.btn--secondary {
+
+	background: none;
+	border-color: $color--btn;
+	color: $color--btn;
+
+	@include attention() {
+
+		border-color: darken($color--btn, 10%);
+		color: darken($color--btn, 10%);
+
+	}
+
 }

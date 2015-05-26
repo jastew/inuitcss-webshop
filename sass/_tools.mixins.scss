@@ -1,0 +1,46 @@
+@mixin vendor($property, $value...) {
+	-webkit-#{$property}: $value;
+	   -moz-#{$property}: $value;
+	        #{$property}: $value;
+}
+
+
+
+@mixin attention($self: false) {
+
+	@if ($self != false) {
+
+		&,
+		&:hover,
+		&:active,
+		&:focus {
+			@content;
+		}
+
+	}
+
+	@else {
+
+		&:hover,
+		&:active,
+		&:focus {
+			@content;
+		}
+
+	}
+
+}
+
+
+
+@mixin font-weight($font-weight) {
+
+	@if ($font-weight == "regular") {
+		font-weight: 300;
+	}
+
+	@elseif ($font-weight == "bold") {
+		font-weight: 700;
+	}
+
+}
