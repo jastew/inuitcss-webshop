@@ -4,11 +4,19 @@ $blue:  #00f;
 $pink:  #f43059;
 
 
+$color--primary: $pink;
 
 // Links
-$color--links: $pink;
+$color--links: $color--primary;
 
 
 
 // Buttons
 $color--btn: $color--links;
+
+
+
+
+// Promotions
+$color--promotion: $color--primary;
+$color--promotion--highlight: light($color--promotion, 20);
