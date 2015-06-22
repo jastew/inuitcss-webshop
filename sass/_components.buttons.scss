@@ -1,10 +1,10 @@
 .btn {
 	@include font-weight(bold);
 
-	color: $color--btn;
+	color: inherit;
 
 	@include attention() {
-		color: darken($color--btn, 10%);
+		color: inherit;
 	}
 }
 
