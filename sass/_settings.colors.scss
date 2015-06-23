@@ -1,18 +1,19 @@
-$red:   #f00;
+$red:   #C51A19;
 $green: #0f0;
 $blue:  #2EA0E9;
 $pink:  #f43059;
 
 
-$color--primary: $blue;
+$color--primary: $red;
+$color--primary--light: #FF5857;
 
 // Links
-$color--links: $color--primary;
+$color--links: $color--primary--light;
 
 
 
 // Buttons
-$color--btn: $color--links;
+$color--btn: $color--primary;
 
 
 
