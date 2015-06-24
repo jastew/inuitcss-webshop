@@ -1,11 +1,13 @@
 $red:   #C51A19;
 $green: #0f0;
-$blue:  #2EA0E9;
+$blue:  #61717F;
 $pink:  #f43059;
 
 
-$color--primary: $red;
-$color--primary--light: #FF5857;
+$color--primary: #000;
+$color--primary--light: lighten($color--primary, 20);
+
+$color--secondary: $blue;
 
 // Links
 $color--links: $color--primary--light;
@@ -20,4 +22,4 @@ $color--btn: $color--primary;
 
 // Promotions
 $color--promotion: $color--primary;
-$color--promotion--highlight: light($color--promotion, 20);
+$color--promotion--highlight: lighten($color--promotion, 20);

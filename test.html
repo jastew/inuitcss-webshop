@@ -11,17 +11,17 @@
 </head>
 <body>
     <header class="app-bar">
-        <div class="wrapper text--center">
+        <div class="text--center">
             <div class="float--left">
                 <a href="#" class="btn navdrawer-toggle" data-target=".nav-main"><i class="fa fa-lg fa-bars"></i></a>
             </div>
             <nav class="navdrawer navdrawer--left nav-main">
                 <!-- Navigation -->
                 <ul class="list-ui list-ui--tiny">
-                    <li><a href="#" class="btn btn--full">Category 1</a></li>
-                    <li><a href="#" class="btn btn--full">Category 2</a></li>
-                    <li><a href="#" class="btn btn--full">Category 3</a></li>
-                    <li><a href="#" class="btn btn--full">Category 4</a></li>
+                    <li><a href="index.html" class="btn btn--full">index.html</a></li>
+                    <li><a href="test.html" class="btn btn--full">test.html</a></li>
+                    <li><a href="product.html" class="btn btn--full">product.html</a></li>
+                    <li><a href="form.html" class="btn btn--full">form.html</a></li>
                     <li><a href="#" class="btn btn--full">Category 5</a></li>
                     <li><a href="#" class="btn btn--full">Category 6</a></li>
                     <li><a href="#" class="btn btn--full">Category 7</a></li>
@@ -31,75 +31,117 @@
             <div class="float--right">
                 <a href="#" class="btn navdrawer-toggle" data-target=".cart"><i class="fa fa-lg fa-shopping-cart"></i></a>
             </div>
-            <nav class="navdrawer navdrawer--left cart">
+            <nav class="navdrawer navdrawer--right cart">
                 <h2>Cart</h2>
             </nav>
             <a href="#" class="btn">Aphix Software</a>
         </div>
-
         <div class="navdrawer-overlay"></div>
     </header>
+
     <div class="wrapper">
-            <ul class="list-block">
-                <li class="layout__item u-1-1-palm u-1-2">
-                    <div class="media media--responsive media--rev">
-                        <!-- <div class="media__img text--center">
-                            <a href="#"><i class="fa fa-5x fa-trophy"></i></a>
-                        </div> -->
-                        <div class="media__body">
-                            <h2><a href="#">Awards</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto necessitatibus ducimus ipsum.</p>
-                        </div>
-                        <div class="flag flag--small">
-                            <a href="#" class="flag__img">
-                                <img src="http://placehold.it/40" alt="">
-                            </a>
-                            <div class="flag__body">
-                                <small>
-                                    <b>Jason Stewart</b> -
-                                    <time>2 days ago</time>
-                                </small>
-                                <p>Facilis, aliquid, dignissimos.</p>
+        <img src="http://placehold.it/1200x400/000/eee/&text=HERO IMAGE" alt="">
+    </div>
+
+
+    <div class="wrapper">
+            <div class="layout layout--large">
+                <div class="layout__item u-1-1-lap-and-up u-3-5-desk">
+                    <ul class="list-block">
+                        <li class="layout__item u-1-1-palm u-1-2-lap u-1-1-desk">
+                            <div class="media media--responsive">
+                                <!-- <div class="media__img text--center">
+                                    <a href="#"><i class="fa fa-5x fa-trophy"></i></a>
+                                </div> -->
+                                <div class="media__img"><img src="http://placehold.it/80/000/eee/&text=Article+1" alt=""></div>
+                                <div class="media__body">
+                                    <h2><a href="#">Awards</a></h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto necessitatibus ducimus ipsum.</p>
+                                    <div class="comment">
+                                        <div class="flag flag--small">
+                                            <a href="#" class="flag__img">
+                                                <img src="http://placehold.it/40" alt="">
+                                            </a>
+                                            <div class="flag__body">
+                                                <small>
+                                                    <b class="comment__author">Jason Stewart</b> -
+                                                    <time>2 days ago</time>
+                                                </small>
+                                                <p class="comment__text">Facilis, aliquid, digsimos.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </li><li class="layout__item u-1-1-palm u-1-2">
-                    <div class="media media--responsive media--rev">
-                        <!-- <div class="media__img text--center">
-                            <a href="#"><i class="fa fa-5x fa-credit-card"></i></a>
-                        </div> -->
-                        <div class="media__body">
-                            <h2><a href="#">Really long Post Header that goes onto more than one line</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto necessitatibus ducimus ipsum.</p>
-                        </div>
-                        <ul class="list-block list-block--small">
-                            <li class="flag flag--small">
-                                <a href="#" class="flag__img">
-                                    <img src="http://placehold.it/40" alt="">
-                                </a>
-                                <div class="flag__body">
-                                    <small>
-                                        <b>Jason Stewart</b> -
-                                        <time>2 days ago</time>
-                                    </small>
-                                    <p>Lorem ipsum dolor sit.</p>
+                        </li><li class="layout__item u-1-1-palm u-1-2-lap u-1-1-desk">
+                            <div class="media media--responsive">
+                                <!-- <div class="media__img text--center">
+                                    <a href="#"><i class="fa fa-5x fa-credit-card"></i></a>
+                                </div> -->
+                                <div class="media__img"><img src="http://placehold.it/80/000/eee/&text=Article+2" alt=""></div>
+                                <div class="media__body">
+                                    <h2><a href="#">Really long Post Header that goes onto more than one line</a></h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto necessitatibus ducimus ipsum.</p>
+                                    <ul class="list-block list-block--small">
+                                        <li class="comment">
+                                            <div class="flag flag--small">
+                                                <a href="#" class="flag__img">
+                                                    <img src="http://placehold.it/40" alt="">
+                                                </a>
+                                                <div class="flag__body">
+                                                    <small>
+                                                        <b class="comment__author">Jason Stewart</b> -
+                                                        <time>2 days ago</time>
+                                                    </small>
+                                                    <p class="comment__text">Facilis, aliquid, digsimos.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="comment">
+                                            <div class="flag flag--small">
+                                                <a href="#" class="flag__img">
+                                                    <img src="http://placehold.it/40" alt="">
+                                                </a>
+                                                <div class="flag__body">
+                                                    <small>
+                                                        <b class="comment__author">Jason Stewart</b> -
+                                                        <time>2 days ago</time>
+                                                    </small>
+                                                    <p class="comment__text">Facilis, aliquid, digsimos.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </li>
-                            <li class="flag flag--small">
-                                <a href="#" class="flag__img">
-                                    <img src="http://placehold.it/40" alt="">
-                                </a>
-                                <div class="flag__body">
-                                    <small>
-                                        <b>Jason Stewart</b> -
-                                        <time>2 days ago</time>
-                                    </small>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum blanditiis asperiores nam, nobis ducimus eos, sunt.</p>
+
+                            </div>
+                    </ul>
+                </div><div class="layout__item u-1-1-lap-and-up u-2-5-desk">
+                    <ul class="list-block list-block--small">
+                        <li class="layout__item u-1-1-palm u-1-2-lap-and-up u-1-1-desk">
+                            <a href="#" class="promotion">
+                                <div class="flag flag--rev">
+                                    <div class="flag__img"><i class="fa fa-fw fa-4x fa-twitter"></i></div>
+                                    <div class="flag__body">
+                                        <h2>Twitter</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
-            </ul>
+                            </a>
+                        </li><li class="layout__item u-1-1-palm u-1-2-lap-and-up u-1-1-desk">
+                            <a href="#" class="promotion">
+                                <div class="flag flag--rev">
+                                    <div class="flag__img"><i class="fa fa-fw fa-4x fa-facebook"></i></div>
+                                    <div class="flag__body">
+                                        <h2>Facebook</h2>
+                                        <p>Nobis numquam consequatur quia, sunt veniam corporis harum!</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>

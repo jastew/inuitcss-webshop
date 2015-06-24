@@ -1,5 +1,9 @@
 .promotion {
-    padding: 10px;
+    display: block;
+    padding: 20px;
     background: $color--promotion;
+    border-width: 4px 2px 2px;
+    border-style: solid;
+    border-color: $color--promotion--highlight;
     color: #fff;
 }

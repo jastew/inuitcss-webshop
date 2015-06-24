@@ -1,0 +1,41 @@
+textarea {
+    padding: 1em;
+}
+
+input,
+select,
+textarea {
+    font-size: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+input[type="number"],
+select {
+    width: 100%;
+    padding-left: 1em;
+}
+
+input[type="checkbox"] {
+    width: 1.5em;
+    // margin: 0 0.75em;
+}
+
+textarea {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+input,
+select {
+    height: 3em;
+    line-height: 3em;
+}
+
+label {
+    cursor: pointer;
+}
