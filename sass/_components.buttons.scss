@@ -8,6 +8,10 @@
 	}
 }
 
+.btn--icon {
+    padding: $inuit-btn-padding - $inuit-btn-border-width;
+}
+
 .btn--primary {
 
 	@include vendor(transition, 0.2s);
@@ -37,6 +41,38 @@
 
 		border-color: darken($color--btn, 10%);
 		color: darken($color--btn, 10%);
+
+	}
+
+}
+
+.btn--facebook {
+
+	background: $color--facebook;
+	border-color: $color--facebook;
+	color: #fff;
+
+	@include attention() {
+
+		background: darken($color--facebook, 10%);
+		border-color: darken($color--facebook, 10%);
+		color: #fff;
+
+	}
+
+}
+
+.btn--twitter {
+
+	background: $color--twitter;
+	border-color: $color--twitter;
+	color: #fff;
+
+	@include attention() {
+
+		background: darken($color--twitter, 10%);
+		border-color: darken($color--twitter, 10%);
+		color: #fff;
 
 	}
 

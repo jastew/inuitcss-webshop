@@ -47,18 +47,21 @@ $inuit-btn-padding: 16px;
 $inuit-btn-background: transparent;
 $inuit-btn-border-width: 2px;
 $inuit-btn-color: #000;
+$inuit-enable-btn--small: true;
 $inuit-enable-btn--full: true;
 $inuit-enable-btn--pill: true;
 @import "bower_components/inuit-buttons/objects.buttons";
 
 $inuit-enable-list-ui--small: true;
 @import "bower_components/inuit-list-inline/objects.list-inline";
+@import "bower_components/inuit-list-bare/objects.list-bare";
 $inuit-enable-list-block--small: true;
 @import "bower_components/inuit-list-block/objects.list-block";
 $inuit-list-ui-border-width: 1px;
 $inuit-enable-list-ui--tiny: true;
 @import "bower_components/inuit-list-ui/objects.list-ui";
 $inuit-enable-layout--large: true;
+$inuit-enable-layout--small: true;
 @import "bower_components/inuit-layout/objects.layout";
 
 //$inuit-enable-media--tiny: true;
@@ -89,6 +92,7 @@ $inuit-enable-flag--rev:        true;
  @import "components.product.scss";
  @import "components.promotion.scss";
  @import "components.comment.scss";
+ @import "components.cart__item.scss";
 
 
 

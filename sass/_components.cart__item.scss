@@ -1,0 +1,55 @@
+.cart__item {
+
+    overflow: hidden;
+    margin-bottom: -1.5em;
+
+    &__img {
+
+        min-width: 80px;
+        width: 20%;
+        max-width: 120px;
+
+        @media (min-width: 600px) {
+            float: left;
+            margin-right: 2em;
+        }
+
+    }
+
+    &__head {
+
+        overflow: hidden;
+
+        @media (min-width: 600px) {
+            float: left;
+        }
+
+    }
+
+    &__body {
+
+        padding-bottom: 1.5em;
+
+    }
+
+    &__values {
+
+        @media (min-width: 600px) {
+
+            & {
+                float: right;
+            }
+
+            &,
+            & tr,
+            & td {
+                display: inline-block;
+            }
+        }
+
+    }
+
+    &__actions {
+        overflow: hidden;
+    }
+}
